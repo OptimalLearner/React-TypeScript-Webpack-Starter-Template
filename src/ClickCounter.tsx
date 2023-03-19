@@ -5,10 +5,7 @@ export const ClickCounter = () => {
 
     return (
         <div>
-            <button onClick={() => setCount((c) => c + 1)}>
-                {' '}
-                Count {count}{' '}
-            </button>
+            <button onClick={() => setCount((c) => c + 1)}> Count {count} </button>
         </div>
     )
 }

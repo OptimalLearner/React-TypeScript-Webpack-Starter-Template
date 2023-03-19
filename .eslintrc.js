@@ -9,12 +9,7 @@ module.exports = {
             version: 'detect',
         },
     },
-    extends: [
-        'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended',
-    ],
+    extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
     rules: {
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': ['error'],
